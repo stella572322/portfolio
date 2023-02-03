@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '嗨！ 我是',
+  title: '嗨嗨！ 我是',
   name: '思潔',
   subtitle: '一個還在自我精進的 UI/UX Designer 🎅',
   cta: '',
@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    '過去在一人身兼多職的工作經驗，讓我擁有快速發現問題並解決問題的能力，也促使我想成為 UX/UI 設計師。目前透過書籍、線上課程、競賽，學習 UX/UI 領域的知識，期望透過學習新的知識與技術，分析用戶需求，提高用戶體驗，創造可用性和可行性的產品。我的目標是打造符合使用者需求，並具有商業價值影響力的產品。',
+  paragraphTwo:
+    '閒暇之餘，我會走訪農場親近自然與動物，我不僅喜歡觀察身邊的一切，也熱愛嘗試新的美食，並藉由手作活動更加認識自己，這樣的生活模式讓我從出門的每一步，都能收穫更多的知識及成長。',
+  paragraphThree: true,
   resume: 'https://stella572322.github.io/resume/', // if no resume, the button will not show up
 };
 
@@ -28,21 +30,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projectSilverGate.png',
+    title: '銀色大門 - 長輩送餐服務 APP',
+    info: '參與 UXY 自學計畫為期 *3 個月與企業合作專案*，協助社團法人銀色大門老人福利協會，優化並重新設計既有『長輩送餐服務 APP』。',
+    info2:
+      '*與企業主與使用者進行訪談*，深入了解問題並制定出解決方案，重新設計建立長輩資料頁面、自選送餐時間頁面，額外新增系統推薦、查看訂單與評分功能 等,以符合用戶的訂餐需求。',
+    url: 'https://stella572322.github.io/resume/#/prototype?type=silverGate',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projectHouten.png',
+    title: 'HOUTEN - 資源整合學習 APP',
+    info: 'HOUTEN 是一款可以查詢課程評價、找到志同道合的學習夥伴的 APP，是*由我自行發起*，並與另一位 UI/UX 設計師為期 2 個月的協作專案。',
+    info2:
+      '此專案*整合三大功能*，除了查詢課程評價、找尋學習夥伴，還包括向專業人士發問問題、交友聊天等系統，以符合學生族群的學習需求。 ',
+    url: 'https://stella572322.github.io/resume/#/prototype?type=houten',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
