@@ -1,5 +1,9 @@
 import { nanoid } from 'nanoid';
 
+import imgAbout from '../images/about.jpg';
+import projectSilverGate from '../images/projectSilverGate.png';
+import projectHouten from '../images/projectHouten.png';
+
 // HEAD DATA
 export const headData = {
   title: 'Ssu Chieh Chen | Portfolio', // e.g: 'Name | Developer'
@@ -17,7 +21,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: imgAbout,
   paragraphOne:
     '過去在一人身兼多職的工作經驗，讓我擁有快速發現問題並解決問題的能力，也促使我想成為 UX/UI 設計師。目前透過書籍、線上課程、競賽，學習 UX/UI 領域的知識，期望透過學習新的知識與技術，分析用戶需求，提高用戶體驗，創造可用性和可行性的產品。我的目標是打造符合使用者需求，並具有商業價值影響力的產品。',
   paragraphTwo:
@@ -30,7 +34,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'projectSilverGate.png',
+    img: projectSilverGate,
     title: '銀色大門 - 長輩送餐服務 APP',
     info: '參與 UXY 自學計畫為期 *3 個月與企業合作專案*，協助社團法人銀色大門老人福利協會，優化並重新設計既有『長輩送餐服務 APP』。',
     info2:
@@ -40,7 +44,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'projectHouten.png',
+    img: projectHouten,
     title: 'HOUTEN - 資源整合學習 APP',
     info: 'HOUTEN 是一款可以查詢課程評價、找到志同道合的學習夥伴的 APP，是*由我自行發起*，並與另一位 UI/UX 設計師為期 2 個月的協作專案。',
     info2:

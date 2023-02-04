@@ -4,7 +4,6 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
 import helper from '../../util/help';
 
 const Projects = () => {
@@ -109,7 +108,7 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
+                            <img alt={title} src={img} />
                           </div>
                         </Tilt>
                       </a>

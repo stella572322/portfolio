@@ -24,16 +24,14 @@
     }
 
     &__image {
-      display: flex;
-      height: 100%;
-      align-items: center;
-      justify-content: center;
-
-      @include respond(tab-port) {
-        padding-bottom: 6.4rem;
-      }
-      @include respond(tab-land) {
-        height: 100%;
+			width: 75%;
+      height: 0;
+      padding-bottom: 48%;
+      margin: 0 auto;
+      vertical-align: center;
+      img {
+        width: 55%;
+				box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25), 0 0 6px rgba(0, 0, 0, 0.05);
       }
     }
 
