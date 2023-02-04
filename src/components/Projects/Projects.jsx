@@ -44,20 +44,19 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <div>
-                          {info !== '' ? (
-                            <p dangerouslySetInnerHTML={{ __html: helper.formatContent(info) }} />
-                          ) : (
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'
-                          )}
-                        </div>
-                        <div className="mb-4">
-                          {info2 !== '' ? (
-                            <p dangerouslySetInnerHTML={{ __html: helper.formatContent(info2) }} />
-                          ) : (
-                            ''
-                          )}
-                        </div>
+                        {info !== '' ? (
+                          <p dangerouslySetInnerHTML={{ __html: helper.formatContent(info) }} />
+                        ) : (
+                          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'
+                        )}
+                        {info2 !== '' ? (
+                          <p
+                            className="mb-4"
+                            dangerouslySetInnerHTML={{ __html: helper.formatContent(info2) }}
+                          />
+                        ) : (
+                          ''
+                        )}
                       </div>
                       <a
                         target="_blank"
