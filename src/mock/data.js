@@ -15,7 +15,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '嗨嗨！ 我是',
+  title: '嗨！ 我是',
   name: '思潔',
   subtitle: '一個還在自我精進的 UI / UX Designer 🎅',
   cta: '',
@@ -62,7 +62,7 @@ export const projectsData = [
     ],
   },
   {
-    groupTitle: 'Front End Projects',
+    groupTitle: 'Front-End Projects',
     data: [
       {
         id: nanoid(),
