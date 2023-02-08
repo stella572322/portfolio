@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, info3, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -52,6 +52,14 @@ const Projects = () => {
                           <p
                             className="mb-4"
                             dangerouslySetInnerHTML={{ __html: helper.formatContent(info2) }}
+                          />
+                        ) : (
+                          ''
+                        )}
+                        {info3 !== '' ? (
+                          <p
+                            className="mb-4"
+                            dangerouslySetInnerHTML={{ __html: helper.formatContent(info3) }}
                           />
                         ) : (
                           ''

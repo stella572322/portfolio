@@ -3,6 +3,8 @@ import { nanoid } from 'nanoid';
 import imgAbout from '../images/about.jpg';
 import projectSilverGate from '../images/projectSilverGate.png';
 import projectHouten from '../images/projectHouten.png';
+import projectRestaurant from '../images/projectRestaurant.gif';
+import projectPokemon from '../images/projectPokemon.gif';
 
 // HEAD DATA
 export const headData = {
@@ -39,6 +41,7 @@ export const projectsData = [
     info: '參與 UXY 自學計畫為期 *3 個月與企業合作專案*，協助社團法人銀色大門老人福利協會，優化並重新設計既有『長輩送餐服務 APP』。',
     info2:
       '*與企業主與使用者進行訪談*，深入了解問題並制定出解決方案，重新設計建立長輩資料頁面、自選送餐時間頁面，額外新增系統推薦、查看訂單與評分功能 等,以符合用戶的訂餐需求。',
+    info3: '',
     url: 'https://stella572322.github.io/resume/#/prototype?type=silverGate',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,17 +52,29 @@ export const projectsData = [
     info: 'HOUTEN 是一款可以查詢課程評價、找到志同道合的學習夥伴的 APP，是*由我自行發起*，並與另一位 UI/UX 設計師為期 2 個月的協作專案。',
     info2:
       '此專案*整合三大功能*，除了查詢課程評價、找尋學習夥伴，還包括向專業人士發問問題、交友聊天等系統，以符合學生族群的學習需求。 ',
+    info3: '',
     url: 'https://stella572322.github.io/resume/#/prototype?type=houten',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: projectRestaurant,
+    title: 'Just A Bite 餐廳網站',
+    info: '目的：使用切版技術製做出一個餐廳網站的首頁。',
+    info2: '技術：透過原生 *HTML & CSS* 實作版面的切版與特效。',
+    info3: '',
+    url: 'https://raw.githack.com/stella572322/mentor-program-4th/master/homeworks/week6/hw1/index.html',
+    repo: 'https://github.com/stella572322/mentor-program-4th/blob/master/homeworks/week6/hw1/index.html', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: projectPokemon,
+    title: 'Pokemon Lottery Game',
+    info: '目的：使用 *React Hooks* 開發出一個具有動畫效果的神奇寶貝抽籤遊戲。',
+    info2: '技術：透過 *styled-component* 實作 *css* 動畫，運用 *custom hook* 手刻弧形輪播圖。',
+    info3: '',
+    url: 'https://stella572322.github.io/pokemon-lottery/',
+    repo: 'https://github.com/stella572322/pokemon-lottery', // if no repo, the button will not show up
   },
 ];
 
